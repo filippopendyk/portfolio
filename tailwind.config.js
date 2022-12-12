@@ -12,6 +12,13 @@ module.exports = {
         'badge': '#3F3F51',
         'input-border': '#061131',
         'input': '#061130',
+      },
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+        'roboto-mono': ['"Roboto Mono"', 'monospace']
+      },
+      fontSize: {
+        'para-desc': '1.625rem',
       }
     },
   },
