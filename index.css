@@ -63,7 +63,11 @@ scroll-margin-top: 100px;
 
 
 .project-title{
-    @apply text-theme font-bold;
+    @apply text-theme;
+}
+
+.project-title:hover{
+    font-weight: bold;
 }
 
 .project-card{
