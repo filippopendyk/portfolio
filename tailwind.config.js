@@ -19,7 +19,7 @@ module.exports = {
       },
       fontSize: {
         'para-desc': '1.625rem',
-      }
+      },
     },
   },
   plugins: [],
