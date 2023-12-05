@@ -1195,6 +1195,14 @@ html, body {
   background-color:  #336791;
 }
 
+.figma{
+  background-color: red;
+}
+
+.wireframing{
+  background-color: black;
+}
+
 .tech-stack{
   margin-top: 3rem;
 }
