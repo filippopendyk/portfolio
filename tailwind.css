@@ -1161,7 +1161,64 @@ html, body {
   color: black;
 }
 
+.sass{
+  background-color: #c69;
+}
 
+.bootstrap{
+  background-color: #563d7c;
+}
+
+.tailwind{
+  background-color: #06b6d4;
+}
+
+.unit-testing{
+  background-color: orange;
+  color:black;
+}
+
+.php{
+  background-color: #AEB2D5;
+  color: black;
+}
+
+.node{
+  background-color:  #68A063;
+}
+
+.express{
+  background-color: black;
+}
+
+.postgres{
+  background-color:  #336791;
+}
+
+.tech-stack{
+  margin-top: 3rem;
+}
+
+h3{
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.web-dev{
+  width: 50%;
+}
+
+.ui-ux{
+  width: 50%;
+}
+
+.tech-container p{
+  background-color: darkgray;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  text-justify: auto;
+}
 
 input {
   --tw-bg-opacity: 1;
