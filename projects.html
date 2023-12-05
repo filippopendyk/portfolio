@@ -51,69 +51,64 @@
                     </a>
                 </div>
             </nav>
-
-            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Delivering<br>modern web solutions.</h1>
-                <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
-                    <div>
-                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
-                            <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
-                        </svg>								
-                    </div>
-                    <span><a href="#work">View my projects.</a></span>
-                </button>
-            </div>
-            <img src="./images/me.png" alt="Image of me" class="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1 me scale-150 md:scale-100 m-auto">
+           
         </div>
     </div>
 
-    <div class="container mt-80 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <section class="w-full">
-            <h2 id="about-me" class="secondary-title">About me</h2>
-            <p class="section-paragraph">Hi! I am Filip Popendyk. A passionate Front-end React developer based in Ottawa, Canada.</p>
-        </section>
-    </div>
-
-    <div class="container mt-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <section class="w-full">
                 <h2 id="work" class="secondary-title">My projects</h2>
-                <p class="section-paragraph">Click the highlighted text to check the code.</p>
                     <div class="container flex flex-col">
                         <div class="project-card grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <img src="./images/randomjoke.png" alt="random joke website">
+                            <img src="./images/popditt.png" alt="popditt app">
                             <div class="container md:px-3 mt-2 md:mt-0 my-auto">
-                                <p class="project-desc"><span class="project-title">Random joke </span>picker/generator.</p>
+                                <p class="project-desc">Reddit clone app - <span class="project-title">popditt</span></p>
                                 <div class="button-container flex mt-2 gap-4">
-                                    <button class="live-btn bg-theme py-2 px-4">
-                                        <a target="_blank" href="https://filippopendyk.github.io/mixed-messages/index.html">Live Project</a>
-                                    </button>
-                                    <button class="code-btn border-white">
-                                        <a target="_blank" href="https://github.com/filippopendyk/filippopendyk.github.io/tree/main/mixed-messages">Code</a>
-                                    </button>
+                                    <div class="tech-container flex flex-row space-x-3 font-bold">
+                                        <div class="typescript tech">TypeScript</div>
+                                        <div class="react tech">React.js</div>
+                                        <div class="redux tech">Redux</div>
+                                        <div class="api tech">Api</div>
+                                        <div class="css tech">CSS</div>
+                                        <div class="html tech">HTML</div>
+                                    </div>
                                 </div>
-                                <div class="icon-container flex mt-2 p-4 gap-4">
-                                    <img class="w-12 h-12" src="./images/js.png" alt="javascript icon">
-                                    <img class="w-12 h-12" src="./images/html-5.png" alt="html icon">
-                                    <img class="w-12 h-12" src="./images/css-3.png" alt="css icon">
+                                <div class="project-desc">
+                                    <p class="project-paragraph text-secondary">Popditt is a responsive Reddit clone built with TypeScript, React, and Redux, using Vite as the build tool. The project aims to familiarize the developer with Vite and improve skills in TypeScript, React, Redux, and unit testing. Key features include top Reddit categories, category-specific posts, and individual post pages. The technology stack includes Vite, TypeScript, React, Redux, CSS, React Testing Library, Jest, and the Reddit API. The project is actively maintained, with room for improvement acknowledged. Check out the live demo for a hands-on experience. For more details, refer to the project documentation.</p>
+                                    <div class="links-container flex">
+                                        <div class="px-4 link-container live-container">
+                                            <a class="live-link" href="https://popditt.filippopendyk.com/" target="_blank">Live project</a>
+                                        </div>
+                                        <div class="px-4 link-container github-container">
+                                            <a class="github-link " href="https://github.com/filippopendyk/reddit-clone" target="_blank">Code</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="project-card grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <img class="w-96 h-56" src="./images/lonestarfish.png" alt="Lone starfish website">
+                            <img src="./images/popditt.png" alt="popditt app">
                             <div class="container md:px-3 mt-2 md:mt-0 my-auto">
-                                <p class="project-desc">Lone starfish <span class="project-title">website.</span></p>
+                                <p class="project-desc"><span class="project-title">Jamming</span> app</p>
                                 <div class="button-container flex mt-2 gap-4">
-                                    <button class="live-btn bg-theme py-2 px-4">
-                                        <a target="_blank" href="https://filippopendyk.github.io/midterm/index.html">Live Project</a>
-                                    </button>
-                                    <button class="code-btn border-white">
-                                        <a target="_blank" href="https://github.com/filippopendyk/filippopendyk.github.io/tree/main/midterm">Code</a>
-                                    </button>
+                                    <div class="tech-container flex flex-row space-x-3 font-bold">
+                                        <div class="javascript tech">JavaScript</div>
+                                        <div class="react tech">React.js</div>
+                                        <div class="api tech">Api</div>
+                                        <div class="css tech">CSS</div>
+                                        <div class="html tech">HTML</div>
+                                    </div>
                                 </div>
-                                <div class="icon-container flex mt-2 p-4 gap-4">
-                                    <img class="w-12 h-12" src="./images/html-5.png" alt="html icon">
-                                    <img class="w-12 h-12" src="./images/css-3.png" alt="css icon">
+                                <div class="project-desc">
+                                    <p class="project-paragraph text-secondary">Jamming is a React.js application created by Filip Popendyk, designed for effortless playlist creation with favorite songs using the Spotify API. This project showcases proficiency in React.js, specifically in displaying data from the Spotify API and working with class components. The technology stack includes React.js for building the frontend, HTML for markup, CSS for styling, and integration with the Spotify API for dynamic content. The live version of the app is hosted on Netlify. This project serves as a showcase for React.js skills, API integration, and front-end development using HTML and CSS.</p>
+                                    <div class="links-container flex">
+                                        <div class="px-4 link-container live-container">
+                                            <a class="live-link" href="https://jamming.filippopendyk.com/" target="_blank">Live project</a>
+                                        </div>
+                                        <div class="px-4 link-container github-container">
+                                            <a class="github-link " href="https://github.com/filippopendyk/jamming" target="_blank">Code</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -122,99 +117,26 @@
                             <div class="container md:px-3 mt-2 md:mt-0 my-auto">
                                 <p class="project-desc">Three star media <span class="project-title">website.</span></p>
                                 <div class="button-container flex mt-2 gap-4">
-                                    <button class="live-btn bg-theme py-2 px-4">
-                                        <a target="_blank" href="https://filippopendyk.github.io/final-project/index.html">Live Project</a>
-                                    </button>
-                                    <button class="code-btn border-white">
-                                        <a target="_blank" href="https://github.com/filippopendyk/filippopendyk.github.io/tree/main/final-project">Code</a>
-                                    </button>
+                                    <div class="tech-container flex flex-row space-x-3 font-bold">
+                                        <div class="css tech">CSS</div>
+                                        <div class="html tech">HTML</div>
+                                    </div>
                                 </div>
-                                <div class="icon-container flex mt-2 p-4 gap-4">
-                                    <img class="w-12 h-12" src="./images/html-5.png" alt="html icon">
-                                    <img class="w-12 h-12" src="./images/css-3.png" alt="css icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-card grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <img src="./images/jamming.png" alt="jamming app">
-                            <div class="container md:px-3 mt-2 md:mt-0 my-auto">
-                                <p class="project-desc"><span class="project-title">Jammming</span> app</p>
-                                <div class="button-container flex mt-2 gap-4">
-                                    <button class="live-btn bg-theme py-2 px-4">
-                                        <a target="_blank" href="https://jamming.filippopendyk.com/">Live Project</a>
-                                    </button>
-                                    <button class="code-btn border-white">
-                                        <a target="_blank" href="https://github.com/filippopendyk/jamming">Code</a>
-                                    </button>
-                                </div>
-                                <div class="icon-container flex mt-2 p-4 gap-4">
-                                    <img class="w-12 h-12" src="./images/react.png" alt="react icon">
-                                    <img class="w-12 h-12" src="./images/api.png" alt="api icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-card grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <img src="./images/popditt.png" alt="popditt app">
-                            <div class="container md:px-3 mt-2 md:mt-0 my-auto">
-                                <p class="project-desc">Reddit clone app - <span class="project-title">popditt</span></p>
-                                <div class="button-container flex mt-2 gap-4">
-                                    <button class="live-btn bg-theme py-2 px-4">
-                                        <a target="_blank" href="https://popditt.filippopendyk.com/">Live Project</a>
-                                    </button>
-                                    <button class="code-btn border-white">
-                                        <a target="_blank" href="https://github.com/filippopendyk/reddit-clone">Code</a>
-                                    </button>
-                                </div>
-                                <div class="icon-container flex mt-2 p-4 gap-4">
-                                    <img class="w-12 h-12" src="./images/ts.png" alt="typescript icon">
-                                    <img class="w-12 h-12" src="./images/Redux.png" alt="Redux icon">
-                                    <img class="w-12 h-12" src="./images/react.png" alt="react icon">
-                                    <img class="w-12 h-12" src="./images/api.png" alt="api icon">
+                                <div class="project-desc">
+                                    <p class="project-paragraph text-secondary">Three Star Media is a website developed to showcase proficiency in HTML and CSS, specifically focusing on Flexbox and Grid layout techniques. Crafted without the use of JavaScript or external libraries, this project underscores the developer's dedication to mastering foundational web development skills. The responsive design adapts to various screen sizes, and the emphasis on clean HTML markup and structured CSS demonstrates the ability to create visually appealing and functional interfaces. Explore the live version for a demonstration of seamless Flexbox and Grid integration.</p>
+                                    <div class="links-container flex">
+                                        <div class="px-4 link-container live-container">
+                                            <a class="live-link" href="https://pope0065.github.io/final-project/index.html" target="_blank">Live project</a>
+                                        </div>
+                                        <div class="px-4 link-container github-container">
+                                            <a class="github-link " href="">Code</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
             </section>
-    </div>
-
-    <div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <section class="w-full">
-            <h2 id="contact" class="secondary-title">Contact me</h2>
-            <p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
-
-            <form class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24" action="https://formsubmit.co/c61d156668f7ce71688104118fc8d5a7" method="POST">
-                <div class="space-y-12">
-                    <div>
-                        <label for="name" class="text-white block mb-6 text-xl font-bold">Name</label>
-                        <input class="w-full border border-input-border bg-input px-4 py-4" type="text" name="name" required>
-                    </div>
-                    <div>
-                        <label class="text-white block mb-6 text-xl font-bold">Email</label>
-                        <input type="email" class="w-full border border-input-border bg-input px-4 py-4" name="email" required>
-                    </div>
-                    <div>
-                        <label class="text-white block mb-6 text-xl font-bold">Message</label>
-                        <textarea name="message" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
-                    </div>
-                    <button class="px-6 py-2 bg-theme text-white font-bold" type="submit">Send it!</button>
-                </div>
-
-                <div class="mt-12">
-                    <a href="mailto:filipos28511@gmail.com" class="text-secondary underline mt-3 block">filipos28511@gmail.com</a>
-
-                    <div class="flex mt-20 space-x-6">
-                        <a target="_blank" href="https://www.linkedin.com/in/filip-popendyk/">
-                    		<img class="w-12 h-12" src="./images/linkedin.png" alt="linkedin logo">
-                        </a>
-                        <a target="_blank" href="https://github.com/filippopendyk">
-                            <img class="w-12 h-12" src="./images/github.png" alt="github logo">
-                        </a>
-                    </div>
-                </div>
-                
-            </form>
-
-        </section>
     </div>
 
 </body>

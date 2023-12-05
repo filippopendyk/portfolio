@@ -82,6 +82,10 @@ scroll-margin-top: 100px;
     @apply text-secondary;
 }
 
+.project-paragraph{
+    @apply text-secondary;
+}
+
 input{
     @apply bg-input;
 }

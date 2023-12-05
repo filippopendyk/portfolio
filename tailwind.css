@@ -1092,7 +1092,7 @@ html, body {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   width: 100%;
-  max-width: 48rem;
+  max-width: 100%;
 }
 
 .project-desc {
@@ -1103,6 +1103,65 @@ html, body {
   --tw-text-opacity: 1;
   color: rgb(134 134 134 / var(--tw-text-opacity));
 }
+
+.tech{
+  max-height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.project-paragraph{
+  font-size: 1.25rem;
+  padding: 1em 0;
+}
+
+.link-container{
+  font-size: 1.25rem;
+  margin: 0 1rem;
+}
+
+.live-container{
+  background-color: #E94560;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+}
+
+.github-container{
+  background-color: darkgray;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+}
+
+.react{
+  background-color: #61DBFB
+}
+
+.redux{
+  background-color:#764abc;
+}
+
+.api{
+  background-color: lightcoral;
+}
+
+.css{
+  background-color: orangered;
+}
+
+.html{
+  background-color: darkcyan;
+}
+
+.typescript{
+  background-color: #007acc;
+}
+
+.javascript{
+  background-color: yellow;
+  color: black;
+}
+
+
 
 input {
   --tw-bg-opacity: 1;
