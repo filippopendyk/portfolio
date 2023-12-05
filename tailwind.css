@@ -1212,6 +1212,11 @@ h3{
   width: 50%;
 }
 
+#email-para{
+  color:white;
+  font-weight: bold;
+}
+
 .tech-container p{
   background-color: darkgray;
   padding: 0.5rem;
